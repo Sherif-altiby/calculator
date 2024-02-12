@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid rgb(184, 162, 162);
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+.container .iput {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(109, 101, 101);
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+}
+.container .iput input {
+  width: 98%;
+  height: 20px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 20px 0;
+}
+.container .rows__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+.container .rows__container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+.container .rows__container .row .btn {
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.container .rows__container .row .btn.pro, .container .rows__container .row .btn.equal {
+  background-color: black;
+  color: #fff;
+}
+.container .rows__container .row .btn.block {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
